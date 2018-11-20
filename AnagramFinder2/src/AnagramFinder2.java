@@ -24,7 +24,7 @@ public class AnagramFinder2 {
             //path to the dictionary file
             Path currentDir = Paths.get(".");
             path = currentDir.resolve(args[0]);                       
-            //path = Paths.get("C:/Users/wlukenba/Desktop/Dev/AnagramFinder2/AnagramFinder2", "dictionary.txt");
+            
 
             //Timer for measuring how long it takes to load the dictionary
             long startTime = System.nanoTime();
